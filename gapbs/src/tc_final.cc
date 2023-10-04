@@ -14,12 +14,12 @@
 #include <vector>
 #include <chrono>
 
-#ifdef __IPU__
-#include <poplar/HalfFloat.hpp>
-#else
-#include <Eigen/Dense>
-using half = Eigen::half;
-#endif
+// #ifdef __IPU__
+// #include <poplar/HalfFloat.hpp>
+// #else
+// #include <Eigen/Dense>
+// using half = Eigen::half;
+// #endif
 
 #include "benchmark.h"
 #include "builder.h"
